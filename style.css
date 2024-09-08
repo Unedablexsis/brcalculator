@@ -1,0 +1,28 @@
+*{margin:0; padding:0;}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:blue;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    min-width: 90vw;
+    margin:1%;
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    
+}

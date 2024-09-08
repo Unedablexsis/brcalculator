@@ -1,0 +1,110 @@
+*{margin:0; padding:0;}
+
+body{
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:blue;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    min-width: 90vw;
+    margin:1%;
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100vw;
+    margin-top:2%;
+}
+
+.box{
+    border:1px solid black;
+    min-width: 30vw;
+    min-height: 70vh;
+}
+
+/*LEFT PANEL*/
+#item_boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*MIDDLE PANEL*/
+#choosing{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2vh;
+}
+
+input[type="number"]{
+    width:6vw;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#gear{
+
+}
+
+.gearowing{
+    display: flex;
+    flex-direction: row;
+}
+
+.gear-box{
+    margin-top:5%;
+    padding:4rex;
+    border: solid 1px black;
+}
+
+#top-gear{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mid-gear{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bottom-gear{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*RIGHT PANEL*/
+#statystyki{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table{
+    padding:2%;
+}
