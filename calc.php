@@ -61,8 +61,8 @@ $result = $con->query($q);
 
 if ($result->num_rows > 0) {
     // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "name: " . $row["name"] . " lvl_requirement: " . $row["lvl_requirement"];
+	while($row = $result->fetch_assoc()) {
+		echo "<div class="item-box">" "name: " . $row["name"] . " lvl_requirement: " . $row["lvl_requirement"] "</div>";
     }
     } else {
         echo "0 results";
